@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tab-nav {
+    height: 50px;
+    background-color: pink;
+    padding: 0px 20px;
+    position: relative;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: rgb(31, 30, 30);
+}
+.tab-nav a{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.tab-nav a:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+.content {
+    padding: 5px 20px;
+    display: none;
+}
+.active {
+    background-color: rgb(206, 206, 206);
+    color: black;
+   
+}
+
+
+
+
+
+
+
+
